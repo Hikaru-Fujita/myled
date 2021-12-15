@@ -15,3 +15,9 @@ https://youtu.be/MpiWRtNO24c
 # 使用方法
 LED発光　echo 1 > /dev/myled0
 LED消灯　echo 0 > /dev/myled0
+
+# ライセンス
+GNU General Public License v3.0
+
+# 著作者
+Copyright (C) 2021 Ryuichi Ueda. All rights reserved.
