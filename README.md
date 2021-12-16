@@ -7,7 +7,7 @@ Raspberry Pi 4 Model B を使用して、GPIOから出力し、LEDを点灯さ�
 
 ## 配線
 Groudと22番ピン GPIO25に、ブレッドボードを使ってLED、間に200Ω抵抗を入れて接続。
-![robosys](https://user-images.githubusercontent.com/93691873/146097169-59c92616-35e7-445e-a3e3-017734a13416.jpg)
+<img src="https://user-images.githubusercontent.com/93691873/146097169-59c92616-35e7-445e-a3e3-017734a13416.jpg" width="320px">
 
 回路図
 ![IMG_4311](https://user-images.githubusercontent.com/93691873/146373074-89b9f7fa-d537-4371-8747-0ad10247aa32.jpg)
