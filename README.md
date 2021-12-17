@@ -2,8 +2,8 @@
 ロボットシステム学の課題1
 
 ### 説明
-Raspberry Pi 4 Model B を使用して、GPIOから出力し、LEDを点灯させるためのデバイスドライバ。
-自分で端末に入力することで点滅させる。
+Raspberry Pi 4 Model B を使用して、GPIOから出力し、LEDを点灯させるためのデバイスドライバである。
+自分で端末に入力することで LEDを発光・消灯させる。
 
 ### 配線
 Groudと22番ピン GPIO25に、ブレッドボードを使ってLED、間に200Ω抵抗を入れて接続。
@@ -27,6 +27,7 @@ GNU General Public License v3.0
 
 ### 著作者
 Copyright (C) 2021 Ryuichi Ueda. All rights reserved.
+
 Readmeを書く際に、必要項目を こちらの方のReadmeを参考に
 作成しました。
 https://github.com/YuwaAoki/myled
