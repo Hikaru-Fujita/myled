@@ -28,6 +28,6 @@ GNU General Public License v3.0
 ### 著作者
 Copyright (C) 2021 Ryuichi Ueda. All rights reserved.
 
-Readmeを書く際に、必要項目を こちらの方のReadmeを参考に
-作成しました。
+READMEを書く際に、必要項目を こちらの方のREADMEを参考に
+作成しました。項目の内容に関しては、自分で記述しました。
 https://github.com/YuwaAoki/myled
