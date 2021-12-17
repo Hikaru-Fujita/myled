@@ -5,7 +5,7 @@
 #include <linux/uaccess.h>
 #include <linux/io.h>
 
-MODULE_AUTHOR("Ryuichi Ueda & Hikaru Fujita");
+MODULE_AUTHOR("Ryuichi Ueda");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
@@ -96,7 +96,8 @@ static int __init init_mod(void)
 		printk(KERN_INFO "%s is unloaded. major:%d\n",__FILE__,MAJOR(dev));
 		iounmap(gpio_base);
 }								
-                                                                                                                        module_init(init_mod);			
+
+module_init(init_mod);			
 module_exit(cleanup_mod);
 
 
