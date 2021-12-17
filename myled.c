@@ -67,7 +67,7 @@ static int __init init_mod(void)
 		if(retval < 0) {                                                                                                                
 			printk(KERN_ERR "cdev_add failed. major:%d, minor:%d",MAJOR(dev),MINOR(dev));			
 			return retval;
-		}
+                }
 
                 cls = class_create(THIS_MODULE,"myled");                                                                                
 		if(IS_ERR(cls)) {
@@ -95,7 +95,7 @@ static int __init init_mod(void)
 		unregister_chrdev_region(dev, 1);											
 		printk(KERN_INFO "%s is unloaded. major:%d\n",__FILE__,MAJOR(dev));
 		iounmap(gpio_base);
-}								
+                }								
 
 module_init(init_mod);			
 module_exit(cleanup_mod);
